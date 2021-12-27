@@ -1,0 +1,240 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,100&display=swap');
+*{
+
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body
+{   
+   
+    background:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url(img/Bg\ image.jpeg) ;
+    background-size: cover;
+    background-position: center;
+    background-attachment: scroll;
+    overflow-x: hidden; 
+
+}
+
+
+.heading p{
+    font-size: 12px;
+}
+
+
+.circle
+{
+    position: absolute;
+    top: 80px;
+    left: 1300px;
+    width: 300px;
+    height: 300px;
+    background: rgba(229, 57, 73, 92);
+    border-radius: 50%;
+    z-index: -1;
+}
+
+.glass
+{
+    display: inline-block;
+    background: rgba(255, 255, 255, 0.2);
+    padding: 3rem;
+    border-radius: 3rem;
+    position: relative;
+    z-index: 1;
+    backdrop-filter: blur(10px);
+    border: solid 2px transparent;
+    background-clip: padding-box;
+
+}
+
+.gap
+{
+    padding: 30px 0;
+}
+
+
+.card
+{
+    background: rgba(126, 111, 111, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    box-shadow:5px 5px 30px rgba(0,0,0,0.5) ;
+    backdrop-filter: blur(10px);
+    max-width: 100%;
+    
+}
+
+.card a
+{
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+}
+.card-title
+{
+    font-size: 1.4rem;
+}
+.card-text
+{
+    font-size: .7rem;
+}
+.btn
+{
+    font-size: 12px;
+}
+
+
+/* why us team */
+.us{
+    padding: 40px 0;
+}
+.us img
+{
+    max-width: 100%;
+    
+}
+
+.us p{
+    font-size: 12px;
+    color: rgb(199, 189, 189);
+}
+/* footer */
+#footer
+{    
+    padding: 50px 0;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 3rem;
+    border-radius: 0;
+    position: relative;
+    z-index: 1;
+    backdrop-filter: blur(10px);
+    border: solid 2px transparent;
+    background-clip: padding-box;
+}
+
+#footer .design 
+{
+    width: 100%;
+ padding: 10px 0;
+    list-style: none;
+}
+
+#footer p{
+    font-size: 12px;
+}
+#footer .design li
+{
+  display: inline-block;
+   margin: 03px 01px;
+    background  :#282828;
+    padding: 03px 8px;
+}
+
+#footer .design li a
+{
+    color: whitesmoke;
+    text-decoration: none;
+    font-size: 13px;
+}
+#footer .design li:hover
+{
+    background:black;
+}
+/*
+ Social
+*/
+#footer .social 
+{
+    width: 100%;
+ padding: 10px 0;
+    list-style: none;
+}
+#footer .social li
+{
+  display: inline-block;
+    margin: 0px 2px;
+}
+
+#footer  .fa-facebook
+{
+    color: blue;
+
+}
+#footer  .fa-twitter
+{
+    color: skyblue;
+}
+
+#footer  .fa-youtube
+{
+    color: red;
+}
+#footer  .fa-google-plus
+{
+    color: #db4a39;
+}
+#footer  .fa-linkedin
+{
+    color: #0e76a8;
+}
+#footer  .fa-reddit-square{
+    color: #ee802f;
+}
+#footer  .fa-reddit-square
+{
+    color: #FF4500;
+}
+
+
+.copyright
+{
+    padding: 10px 0;
+    backdrop-filter: blur(10px);
+    border: solid 2px transparent;
+    background-clip: padding-box;
+    background: rgba(255, 255, 255, 0.1);
+    font-size: 12px;
+    letter-spacing: .1rem;
+    font-weight: 200;
+    
+}
+
+
+/*============ BOOTSTRAP BREAK POINTS:
+
+Extra small (xs) devices (portrait phones, less than 576px)
+No media query since this is the default in Bootstrap
+
+Small (sm) devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+Medium (md) devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+Large (lg) devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+Extra (xl) large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+
+=============*/
+
+@media (max-width: 768px)
+
+{ 
+    .card
+    {
+        min-width: 100%;
+
+    }
+    .heading h1{
+        font-size: 22px;
+    }
+    .heading p{
+        font-size: 10px;
+    }
+
+
+ }
